@@ -15,6 +15,13 @@ var data = {
             episodes: [13]
         }, 
 		{
+            name: "Aspirational Dookie",
+            definition: "<p></p>",
+            quote: "",
+            img: "",
+            episodes: [76]
+        },
+		{
             name: "Bellingham",
             definition: "<p>To be overly nice in an effort to avoid confrontation.</p><p>Named after Bellingham, Wa. based on John's theory that the further North and West a person goes in the contiguous United States the more non-confrontational the local populations are.",
             quote: "You don't want to go into a handjob parlor and bellingham the woman.",

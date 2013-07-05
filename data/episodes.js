@@ -377,13 +377,13 @@ var entries = {
 		},
 		{
 			episode: 75,
-			title: '',
-			path: ''
+			title: 'Mean Baby',
+			path: 'http://www.merlinmann.com/roderick/ep-75-mean-baby.html'
 		},
 		{
 			episode: 76,
-			title: '',
-			path: ''
+			title: 'The Cherry of Somebody\'s Appeal',
+			path: 'http://www.merlinmann.com/roderick/ep-76-the-cherry-of-somebodys-appeal.html'
 		},
 		{
 			episode: 77,
