@@ -2,6 +2,7 @@ var data = {
     topics: [
 		{
             name: "Amsterdam to Istanbul",
+            perma-link: "amsterdam-to-instanbul",
             definition: "<p></p>",
             quote: "",
             img: "",
@@ -9,6 +10,7 @@ var data = {
         }, 
 		{
             name: "Arby's",
+            perma-link: "arbys",
             definition: "<p></p>",
             quote: "",
             img: "",
@@ -16,6 +18,7 @@ var data = {
         }, 
 		{
             name: "Aspirational Dookie",
+            perma-link: "aspirational-dookie",
             definition: "<p></p>",
             quote: "",
             img: "",
