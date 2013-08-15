@@ -255,6 +255,7 @@ var data = {
         }, 
 		{
             name: "Pipe Bombs",
+            perma-link: "pipe-bombs",
             definition: "<p></p>",
             quote: "",
             img: "",
