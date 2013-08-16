@@ -26,6 +26,7 @@ var data = {
         },
 		{
             name: "Bellingham",
+            perma-link: "bellingham",
             definition: "<p>To be overly nice in an effort to avoid confrontation.</p><p>Named after Bellingham, Wa. based on John's theory that the further North and West a person goes in the contiguous United States the more non-confrontational the local populations are.",
             quote: "You don't want to go into a handjob parlor and bellingham the woman.",
             link: "",
@@ -34,6 +35,7 @@ var data = {
         }, 
 		{
             name: "Bob Marley",
+            perma-link: "bob-marley",
             definition: "<p></p>",
             quote: "",
             img: "",
@@ -41,6 +43,7 @@ var data = {
         }, 
 		{
             name: "Bronies",
+            perma-link: "bronies",
             definition: "<p></p>",
             quote: "",
             img: "",
@@ -48,6 +51,7 @@ var data = {
         }, 
 		{
             name: "Building Trail",
+            perma-link: "building-trail",
             definition: "<p></p>",
             quote: "",
             img: "",
@@ -55,6 +59,7 @@ var data = {
         }, 
 		{
             name: "Chemtrails",
+            perma-link: "chemtrails",
             definition: "<p></p>",
             quote: "",
             img: "",
@@ -62,6 +67,7 @@ var data = {
         }, 
 		{
             name: "Chili's",
+            perma-link: "chilis",
             definition: "<p></p>",
             quote: "",
             img: "",
@@ -69,6 +75,7 @@ var data = {
         }, 
 		{
             name: "Dander and Detritus",
+            perma-link: "dander",
             definition: "<p></p>",
             quote: "",
             img: "",
@@ -76,6 +83,7 @@ var data = {
         }, 
 		{
             name: "Dead Baby Sea Otter",
+            perma-link: "dead-baby-sea-otter",
             definition: "<p>You never know what John might start a collection of.</p>",
             quote: "How often do you get one of those?",
             img: "",
@@ -83,6 +91,7 @@ var data = {
         },
 		{
             name: "Dead Rubber Girl",
+            perma-link: "dead-rubber-girl",
             definition: "<p>A sex-doll that lives deep in the uncanny valley and looks just a little bit too real.</p>",
             //quote: "I\'m not going to know whether to grab her and run into the bathroom with her and have sex with her real quick or what.",
             quote: "You don't have a dead rubber girl in your closet, you have a fetish item.",
@@ -91,6 +100,7 @@ var data = {
         }, 
 		{
             name: "Devil Dogs",
+            perma-link: "devil-dogs",
             definition: "<p></p>",
             quote: "",
             img: "",
@@ -98,6 +108,7 @@ var data = {
         }, 
 		{
             name: "Fake southern patois",
+            perma-link: "patois",
             definition: "<p></p>",
             quote: "",
             img: "",
@@ -105,6 +116,7 @@ var data = {
         }, 
 		{
             name: "Farmers",
+            perma-link: "farmers",
             definition: "<p></p>",
             quote: "",
             img: "",
@@ -112,6 +124,7 @@ var data = {
         }, 
 		{
             name: "Fight Boat",
+            perma-link: "fight-boat",
             definition: "<p>A de-commisioned oil tanker described in <a href='http://www.merlinmann.com/roderick/ep-74-the-omnibus-of-wilburforce.html'>episode 74</a> outfitted for hosting <a href='http://www.merlinmann.com/roderick/ep-61-neighborhood-stick-fight.html'>stick fights</a>. Where the spirit of the Olympics is to bring people together to solve differences, Fight Boat is trying to do the opposite.</p>",
             quote: "",
             img: "",
@@ -119,6 +132,7 @@ var data = {
         }, 
 		{
             name: "German Sex Tourists",
+            perma-link: "sex-tourists",
             definition: "<p></p>",
             quote: "",
             img: "",
@@ -126,6 +140,7 @@ var data = {
         }, 
 		{
             name: "Here's the thing about...",
+            perma-link: "heres-the-thing",
             definition: "<p>John is about to drop some knowledge.</p>",
             quote: "Here's the thing about WWII.",
             img: "",
@@ -133,6 +148,7 @@ var data = {
         }, 
 		{
             name: "Hooptie collection",
+            perma-link: "hooptie-collection",
             definition: "<p></p>",
             quote: "",
             img: "",
@@ -140,6 +156,7 @@ var data = {
         }, 
 		{
             name: "Hooker Bacon",
+            perma-link: "hooker-bacon",
             definition: "<p></p>",
             quote: "",
             img: "",
@@ -147,6 +164,7 @@ var data = {
         }, 
 		{
             name: "Hitler",
+            perma-link: "hitler",
             definition: "<p></p>",
             quote: "",
             img: "",
@@ -154,6 +172,7 @@ var data = {
         }, 
 		{
             name: "Hitler n' stuff",
+            perma-link: "hitler-n-stuff",
             definition: "<p></p>",
             quote: "",
             img: "",
@@ -161,6 +180,7 @@ var data = {
         }, 
 		{
             name: "Juggalos",
+            perma-link: "juggalos",
             definition: "<p></p>",
             quote: "",
             img: "",
@@ -168,6 +188,7 @@ var data = {
         }, 
 		{
             name: "Keep moving and get out of the way",
+            perma-link: "keep-moving",
             definition: "<p>John's philosophy for other people while grocery shopping and living thier life in general.</p>",
             quote: "Other people, right? They're the problem",
             img: "",
@@ -175,6 +196,7 @@ var data = {
         }, 
 		{
             name: "Lady Horse",
+            perma-link: "lady-horse",
             definition: "<p>Sometimes when a man finds a very special horse that he loves he takes the place of a lady horse during sexual acts.</p>",
             quote: "My experience of horses is that, if you make yourself a lady horse for a horse, and, the following day, you don’t know what to get them: alfalfa.",
             img: "",
@@ -182,6 +204,7 @@ var data = {
         }, 
 		{
             name: "Mavericks",
+            perma-link: "maverick",
             definition: "<p>Tall guys who buy ice cream at the self-checkout and drive mini-vans.</p>",
             quote: "The self-checkout is always very long line of people who think they are Mavericks",
             link: "",
@@ -190,6 +213,7 @@ var data = {
         }, 
 		{
             name: "Memorized Patter",
+            perma-link: "memorized-patter",
             definition: "<p>The memorized jargon anyone working in customer service gives to their customers.</p>",
             quote: "If anyone brings memorized patter to me I try to break it with simple questions like, How hairy is your bush?",
             link: "",
@@ -198,6 +222,7 @@ var data = {
         },
  		{
 	        name: "Navigation",
+            perma-link: "navigation",
             definition: "<p>To stay unpredictable, John never takes the same route between two locations.</p>",
             quote: "Even if it means I have to drive up on the sidewalk for some portion of my route, I'm going to take a different way.",
             img: "",
@@ -206,6 +231,7 @@ var data = {
 		},
 		{
             name: "NorthFace",
+            perma-link: "northface",
             definition: "<p></p>",
             quote: "I demand satisfaction.",
             img: "",
@@ -213,6 +239,7 @@ var data = {
         }, 
 		{
             name: "Pillow Owls",
+            perma-link: "pillow-owls",
             definition: "<p></p>",
             quote: "",
             img: "",
@@ -220,6 +247,7 @@ var data = {
         }, 
 		{
             name: "Ping Pong",
+            perma-link: "ping-pong",
             definition: "<p></p>",
             quote: "",
             img: "",
@@ -227,6 +255,7 @@ var data = {
         }, 
 		{
             name: "Pipe Bombs",
+            perma-link: "pipe-bombs",
             definition: "<p></p>",
             quote: "",
             img: "",
