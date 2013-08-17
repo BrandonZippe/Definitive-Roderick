@@ -1,4 +1,4 @@
 Definitive-Roderick
 ===================
 
-a simple dictionary-lookup app
+A simple dictionary-lookup app celebrating America's favorite rich, procrastinating, sometimes musician.
