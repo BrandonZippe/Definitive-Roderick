@@ -1,7 +1,9 @@
 Definitive-Roderick
 ===================
 
-A simple dictionary-lookup app celebrating America's favorite rich, procrastinating, sometimes musician.
+A simple dictionary-lookup app celebrating America's favorite rich, procrastinating, sometimes musician. 
+
+Of course you could reuse it at a wiki replacement, but that's not nearly as much fun.
 
 
 Features
