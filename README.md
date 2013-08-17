@@ -1,4 +1,4 @@
-Definitive-Roderick
+Definitive Roderick
 ===================
 
 A simple dictionary-lookup app celebrating America's favorite rich, procrastinating, sometimes musician. 
@@ -14,3 +14,8 @@ Features
 - works offline
 - iOS web-app ready
 - responsive layout
+
+
+Links
+--------
+[Definitive Roderick](http://definitiveroderick.com).
