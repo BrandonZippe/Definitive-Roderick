@@ -387,23 +387,23 @@ var entries = {
 		},
 		{
 			episode: 77,
-			title: '',
-			path: ''
+			title: 'The Derivation of Donk',
+			path: 'http://www.merlinmann.com/roderick/ep-77-the-derivation-of-donk.html'
 		},
 		{
 			episode: 78,
-			title: '',
-			path: ''
+			title: 'Driving Lesson Costume',
+			path: 'http://www.merlinmann.com/roderick/ep-78-driving-lesson-costume.html'
 		},
 		{
 			episode: 79,
-			title: '',
-			path: ''
+			title: 'We Are Not Snow Giants',
+			path: 'http://www.merlinmann.com/roderick/ep-79-we-are-not-snow-giants.html'
 		},
 		{
 			episode: 80,
-			title: '',
-			path: ''
+			title: 'I Was the Red Robin',
+			path: 'http://www.merlinmann.com/roderick/ep-80-i-was-the-red-robin.html'
 		},
 		{
 			episode: 81,
