@@ -291,6 +291,7 @@ var data = {
         }, 
 		{
             name: "Repercussions",
+			perma-link: "reprecussions",
             definition: "<p></p>",
             quote: "He was living in a post punch-in-the-nose world",
             img: "",
@@ -298,6 +299,7 @@ var data = {
         }, 
 		{
             name: "Saying Hello to Birds",
+			perma-link: "saying-hello-to-birds",
             definition: "<p></p>",
             quote: "",
             img: "",
@@ -305,6 +307,7 @@ var data = {
         }, 
 		{
             name: "Shaving",
+			perma-link: "shaving",
             definition: "<p>As part of his training and 'no-compromise' lifestyle, John shaves with just water.</p>",
             quote: "The viet-cong can smell soap",
             img: "",
@@ -312,6 +315,7 @@ var data = {
         }, 
 		{
             name: "Shooting down a Zero with a .45",
+			perma-link: "shooting-zero-45",
             definition: "<p></p>",
             quote: "",
             img: "",
@@ -319,6 +323,7 @@ var data = {
         }, 
 		{
             name: "Stress Bumps",
+			perma-link: "stress-bumps",
             definition: "<p></p>",
             quote: "Did you kiss a dirty girl?",
             img: "",
@@ -326,6 +331,7 @@ var data = {
         }, 
 		{
             name: "Stupidly Able",
+			perma-link: "stupidly-able",
             definition: "Dumb people.",
             quote: "I hate to say dumb people… 'stupidly-able' people.",
             link: "",
@@ -334,6 +340,7 @@ var data = {
         }, 
 		{
             name: "SuperTrain",
+			perma-link: "supertrain",
             definition: "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p> <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>",
             quote: "You'd better hope to Christ you brought everything you need.",
             img: "http://24.media.tumblr.com/d4b8ebdf4e434a553f67d358f1605057/tumblr_meqkm2ZXBT1qzc18no1_500.jpg",
@@ -341,6 +348,7 @@ var data = {
         }, 
 		{
             name: "Ted Nugent",
+			perma-link: "ted-nugent",
             definition: "<p></p>",
             quote: "",
             img: "",
@@ -348,6 +356,7 @@ var data = {
         }, 
 		{
             name: "Waitress Appeaser",
+			perma-link: "waitress-appeaser",
             definition: "<p></p>",
             quote: "",
             link: "",
@@ -356,6 +365,7 @@ var data = {
         }, 
 		{
             name: "Young John's sex-life",
+			perma-link: "young-johns-sex-life",
             definition: "<p></p>",
             quote: "I had a complicated relationship with legwarmers and headbands.",
             img: "",
