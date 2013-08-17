@@ -263,6 +263,7 @@ var data = {
         }, 
 		{
             name: "PowerPoint",
+			perma-link: "powerpoint",
             definition: "<p>Something John knows nothing about.</p>",
             quote: "FUCK YOU",
             img: "",
@@ -270,6 +271,7 @@ var data = {
         }, 
 		{
             name: "Puffy leather car coats",
+			perma-link: "puffy-leather-car-coats",
             definition: "<p>The purvue of actual poor poeple, or bad people... or people with rashes in awkward rashes.</p>",
             quote: "A lot of people would walk to the other side of the street.",
             img: "",
@@ -277,6 +279,7 @@ var data = {
         },
 		{
             name: "Pump Chili",
+			perma-link: "pump-chili",
             definition: "<p></p>",
             quote: "",
             img: "",
@@ -284,6 +287,7 @@ var data = {
         }, 
 		{
             name: "Punk Rock",
+			perma-link: "punk-rock",
             definition: "<p></p>",
             quote: "",
             img: "",
