@@ -63,6 +63,7 @@ function populateDetails(id, addHash){
 	var name = data.topics[id].name;
 	var q = data.topics[id].quote;
 	var def = data.topics[id].definition;
+	var permalink = data.topics[id].permalink;
 	var eps = data.topics[id].episodes[0];
 	
 	drawEps(eps);
@@ -71,7 +72,7 @@ function populateDetails(id, addHash){
 		window.location.hash = id;	
 	}
 	
-	$('#share').html('<a href="http://twitter.com/intent/tweet?url=http://definitiveroderick.com?item='+id+'">Share definition on Twitter</a>');
+	$('#share').html('<a href="http://twitter.com/intent/tweet?url=http://definitiveroderick.com?item='+permalink+'">Share definition on Twitter</a>');
 	
 	$('#entryTitle').html(name);
 	$('#q').html('"' + q + '"');
@@ -100,7 +101,23 @@ function getRandomEntry(){
 function getSpecificEntry(hash, addHash){
 	
 	$('#detailsCol').load('templates/details.html', function() {
-	  populateDetails(hash, addHash);
+		topicNum = 0;
+		$.each(data.topics, function() {
+			var permalink = data.topics[topicNum].permalink;
+			var id = topicNum;
+			
+			//alert(hash +' - '+permalink);
+			
+			if(permalink ==  hash){
+				//alert(hash +' - '+permalink);
+				populateDetails(topicNum, addHash);
+			}
+			topicNum++;
+			
+		});
+	
+	
+		
 	});
 }
 
