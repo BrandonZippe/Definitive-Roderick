@@ -13,7 +13,7 @@ var data = {
             permalink: "arbys",
             definition: "<p></p>",
             quote: "",
-            img: "",
+            img: "ARB11_BNCMid_440x282.jpg",
             episodes: [13]
         }, 
 		{
@@ -30,7 +30,7 @@ var data = {
             definition: "<p>To be overly nice in an effort to avoid confrontation.</p><p>Named after Bellingham, Wa. based on John's theory that the further North and West a person goes in the contiguous United States the more non-confrontational the local populations are.",
             quote: "You don't want to go into a handjob parlor and bellingham the woman.",
             link: "",
-            img: "",
+            img: "6a01053647073b970c01156f6c260a970b.jpg",
             episodes: [27]
         }, 
 		{
@@ -38,15 +38,15 @@ var data = {
             permalink: "bob-marley",
             definition: "<p></p>",
             quote: "",
-            img: "",
+            img: "marijuana-leaf.jpg",
             episodes: []
         }, 
 		{
             name: "Bronies",
             permalink: "bronies",
-            definition: "<p></p>",
+            definition: "<p>Adult men who consider themselves fans of my little pony. John has no problem with the bonies.</p>",
             quote: "",
-            img: "",
+            img: "Fluttershy-my-little-pony-friendship-is-magic-20524085-570-402.jpg",
             episodes: []
         }, 
 		{
@@ -62,7 +62,7 @@ var data = {
             permalink: "chemtrails",
             definition: "<p></p>",
             quote: "",
-            img: "",
+            img: "7d79a91602c611e3816122000a1fbf6a_7.jpg",
             episodes: []
         }, 
 		{
@@ -86,7 +86,7 @@ var data = {
             permalink: "dead-baby-sea-otter",
             definition: "<p>You never know what John might start a collection of.</p>",
             quote: "How often do you get one of those?",
-            img: "",
+            img: "img-thing.jpg",
             episodes: [27]
         },
 		{
@@ -347,7 +347,7 @@ var data = {
 			permalink: "supertrain",
             definition: "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p> <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>",
             quote: "You'd better hope to Christ you brought everything you need.",
-            img: "imgs/def_images/8301245657_5d23b2b902_b.jpg",
+            img: "8301245657_5d23b2b902_b.jpg",
             episodes: [25]
         }, 
 		{

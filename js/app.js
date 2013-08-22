@@ -80,7 +80,7 @@ function populateDetails(id, addHash){
 	$('#def').html(def);
 	
 	if(img != ''){
-		$('#def').prepend('<img src="'+img+'" />');	
+		$('#def').prepend('<img src="imgs/def_images/'+img+'" />');	
 	}
 	
 	$('#detailsCol').focus();
