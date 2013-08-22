@@ -72,7 +72,7 @@ h3{font-family: 'Quando', sans-serif; font-size: 160%; line-height:1.2;}
 #def img{
 float:right;
 max-width: 36%;
-margin-left:2%;
+margin:0 0 2% 2%;
 }
 
 #share{font-size: 64%; padding-top:2%; display:block;}
@@ -80,6 +80,7 @@ margin-left:2%;
 #def p+p{margin-top: 24px;}
 
 #eps{
+clear:both;
 font-size: 54%;
 margin-bottom: 2%; 
 font-style: italic; 
