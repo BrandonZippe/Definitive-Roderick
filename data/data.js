@@ -347,7 +347,7 @@ var data = {
 			permalink: "supertrain",
             definition: "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p> <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>",
             quote: "You'd better hope to Christ you brought everything you need.",
-            img: "http://24.media.tumblr.com/d4b8ebdf4e434a553f67d358f1605057/tumblr_meqkm2ZXBT1qzc18no1_500.jpg",
+            img: "imgs/def_images/8301245657_5d23b2b902_b.jpg",
             episodes: [25]
         }, 
 		{

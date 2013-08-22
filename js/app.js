@@ -65,6 +65,7 @@ function populateDetails(id, addHash){
 	var def = data.topics[id].definition;
 	var permalink = data.topics[id].permalink;
 	var eps = data.topics[id].episodes[0];
+	var img = data.topics[id].img;
 	
 	drawEps(eps);
 	
@@ -77,6 +78,11 @@ function populateDetails(id, addHash){
 	$('#entryTitle').html(name);
 	$('#q').html('"' + q + '"');
 	$('#def').html(def);
+	
+	if(img != ''){
+		$('#def').prepend('<img src="'+img+'" />');	
+	}
+	
 	$('#detailsCol').focus();
 	//$('#eps').html();
 }
