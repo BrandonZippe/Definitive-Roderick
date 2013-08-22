@@ -19,5 +19,6 @@ var quotes = [
 	'like a gentleman',
 	'I didn\'t come here to talk about Abe Lincoln',
 	'I\'ve had a few rashes in my day',
-	'I put it into my bubble-bath rotation'
+	'I put it into my bubble-bath rotation',
+	'HELLO: big, like to dance!'
 ];
