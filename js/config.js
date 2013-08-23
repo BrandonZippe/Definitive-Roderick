@@ -1,4 +1,5 @@
 
+/*taglines*/
 var quotes = [
 	'here\'s the thing',
 	'keep a small bag packed', 
@@ -20,5 +21,7 @@ var quotes = [
 	'I didn\'t come here to talk about Abe Lincoln',
 	'I\'ve had a few rashes in my day',
 	'I put it into my bubble-bath rotation',
-	'HELLO: big, like to dance!'
+	'HELLO: big, like to dance!',
+	'The best hobo costume the world has ever known',
+	'I\m not interested in shining those boots'
 ];

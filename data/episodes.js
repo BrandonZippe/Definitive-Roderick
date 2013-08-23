@@ -407,8 +407,8 @@ var entries = {
 		},
 		{
 			episode: 81,
-			title: '',
-			path: ''
+			title: 'It Tastes Like the Forest',
+			path: 'http://www.merlinmann.com/roderick/ep-81-it-tastes-like-the-forest.html'
 		},
 		{
 			episode: 82,

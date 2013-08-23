@@ -72,7 +72,8 @@ h3{font-family: 'Quando', sans-serif; font-size: 160%; line-height:1.2;}
 #def img{
 float:right;
 max-width: 36%;
-margin:0 0 2% 2%;
+margin:0 0 1.5% 1.5%;
+border:solid 1px #222;
 }
 
 #share{font-size: 64%; padding-top:2%; display:block;}
@@ -156,7 +157,7 @@ text-align:right;
 color:#777;
 }
 
-.id{display:none;}
+.permalink, .id{display:none;}
 
 .sup{font-size: 32%; display:block; float:left; margin-top:2%;}
 

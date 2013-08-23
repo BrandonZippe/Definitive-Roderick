@@ -151,7 +151,7 @@ var data = {
             permalink: "hooptie-collection",
             definition: "<p></p>",
             quote: "",
-            img: "",
+            img: "tumblr_m7qk3q84uU1qauqmuo1_1280.png",
             episodes: [39]
         }, 
 		{
@@ -220,6 +220,15 @@ var data = {
             img: "",
             episodes: [49]
         },
+		{
+            name: "Modern Art",
+            permalink: "modern-art",
+            definition: "<p>. Example: holocaust donuts.</p>",
+            quote: "I find modern art to be a thought crime.",
+            link: "",
+            img: "",
+            episodes: []
+        },	
  		{
 	        name: "Navigation",
             permalink: "navigation",
@@ -328,7 +337,7 @@ var data = {
 		{
             name: "Stress Bumps",
 			permalink: "stress-bumps",
-            definition: "<p></p>",
+            definition: "<p>Herpes.</p>",
             quote: "Did you kiss a dirty girl?",
             img: "",
             episodes: [36]

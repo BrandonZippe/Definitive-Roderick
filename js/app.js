@@ -5,8 +5,7 @@ function initApp(){
 	var qs = 'item';
 	var url = window.location.search;
 	
-	
-	//onload show random entry or grab hash
+	//onload show random entry or grab hash or use item=
 	if(window.location.hash) {
 	  	var hash = window.location.hash;
 		hash = hash.replace('#', '');
@@ -21,9 +20,7 @@ function initApp(){
 	}
 	else {
 	  getRandomEntry();
-	}
-		
-	
+	}	
 }
 
 function populateAutoComplete(){
@@ -32,11 +29,12 @@ function populateAutoComplete(){
 	$.each(data.topics, function() {
 		var name = data.topics[topicNum].name;
 		var id = topicNum;
+		var permalink = data.topics[topicNum].permalink;
 		var val = $('#search').val();
 		var nameSub = name.substring(0, $('#search').val().length);
 		
 		if(val.toLowerCase() == nameSub.toLowerCase()){
-			$('#autocomplete').append('<a class="loadDef">' + name + '<span class="id">'+id+'</span></a>')
+			$('#autocomplete').append('<a class="loadDef">' + name + '<span class="id">'+id+'</span><span class="permalink">'+permalink+'</span></a>')
 		}	
 		topicNum++;	
 	});
@@ -69,11 +67,9 @@ function populateDetails(id, addHash){
 	
 	drawEps(eps);
 	
-	if(addHash){
-		window.location.hash = id;	
-	}
+	if(addHash){ window.location.hash = permalink;	}
 	
-	$('#share').html('<a href="http://twitter.com/intent/tweet?url=http://definitiveroderick.com?item='+permalink+'">Share definition on Twitter</a>');
+	$('#share').html('<a href="http://twitter.com/intent/tweet?url=http://definitiveroderick.com?item='+permalink+'" target="_blank">Share definition on Twitter</a>');	
 	
 	$('#entryTitle').html(name);
 	$('#q').html('"' + q + '"');
@@ -100,7 +96,7 @@ function getRandomEntry(){
 	var itemNum = randomnumber;
 	
 	$('#detailsCol').load('templates/details.html', function() {
-	  populateDetails(itemNum, false);
+	  populateDetails(itemNum, true);
 	});
 }
 
@@ -111,18 +107,13 @@ function getSpecificEntry(hash, addHash){
 		$.each(data.topics, function() {
 			var permalink = data.topics[topicNum].permalink;
 			var id = topicNum;
-			
-			//alert(hash +' - '+permalink);
-			
+						
 			if(permalink ==  hash){
-				//alert(hash +' - '+permalink);
 				populateDetails(topicNum, addHash);
 			}
 			topicNum++;
 			
 		});
-	
-	
 		
 	});
 }
@@ -141,9 +132,10 @@ $('#search').on('keyup', function(){
 $('#autocomplete').on('click', "a", function(event){
 	$('#detailsCol').html('');
 	var itemNum = $(this).children('.id').text();
+	var permalink = $(this).children('.permalink').text();
 	
 	$('#detailsCol').load('templates/details.html', function() {
-	  populateDetails(itemNum, false);
+	  populateDetails(itemNum, true);
 	});
 });
 
@@ -157,7 +149,16 @@ $('#mastHead').on('click', "h2", function(event){
 	getRandomQuote();
 });
 
-
+$(window).on('hashchange', function() {
+	if(window.location.hash) {
+	  	var hash = window.location.hash;
+		hash = hash.replace('#', '');
+			
+		if(hash != ''){
+			getSpecificEntry(hash, false);
+		}
+	}
+});
 
 
 $(document).ready(function() {
