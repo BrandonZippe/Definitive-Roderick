@@ -1,5 +1,6 @@
 
 /*taglines*/
+
 var quotes = [
 	'here\'s the thing',
 	'keep a small bag packed', 
@@ -15,7 +16,7 @@ var quotes = [
 	'hey y\'all, I\'m not from around here',
 	'makin techs\' and techin\' makes',
 	'isn\'t he a singer-songwriter?',
-	'hey merlin!',
+	'hey Merlin!',
 	'the 3 page handout for the next generation',
 	'like a gentleman',
 	'I didn\'t come here to talk about Abe Lincoln',
@@ -23,5 +24,7 @@ var quotes = [
 	'I put it into my bubble-bath rotation',
 	'HELLO: big, like to dance!',
 	'The best hobo costume the world has ever known',
-	'I\m not interested in shining those boots'
+	'I\'m not interested in shining those boots',
+	'HEY MAN, WHY YA KISSIN\' MY BIRD?',
+	'The don\'t have the balls to think this way'
 ];

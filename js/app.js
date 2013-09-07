@@ -25,23 +25,27 @@ function initApp(){
 
 function populateAutoComplete(){
 	$('#autocomplete').html('');
+	var $autocomplete = $('#autocomplete');
+	
 	topicNum = 0;
 	$.each(data.topics, function() {
 		var name = data.topics[topicNum].name;
 		var id = topicNum;
 		var permalink = data.topics[topicNum].permalink;
 		var val = $('#search').val();
-		var nameSub = name.substring(0, $('#search').val().length);
+		var length = $('#search').val().length;
+		var nameSub = name.substring(0, length);
 		
 		if(val.toLowerCase() == nameSub.toLowerCase()){
-			$('#autocomplete').append('<a class="loadDef">' + name + '<span class="id">'+id+'</span><span class="permalink">'+permalink+'</span></a>')
+			$autocomplete.append('<a class="loadDef">' + name + '<span class="id">'+id+'</span><span class="permalink">'+permalink+'</span></a>')
 		}	
 		topicNum++;	
 	});
 }
 
 function drawEps(ep){
-
+	var $eps = $('#eps');
+	
 	var epNum = 0;
 	$.each(entries.episodes, function() {
 		var title = entries.episodes[epNum].title;
@@ -49,12 +53,11 @@ function drawEps(ep){
 		var path = entries.episodes[epNum].path;
 		
 		if(ep == episode){
-			$('#eps').append('<a href="'+path+'">'+title+'</a>');
+			$eps.append('<a href="'+path+'">'+title+'</a>');
 		}
 		
 		epNum++;
 	});
-	
 }
 
 function populateDetails(id, addHash){	
@@ -80,7 +83,6 @@ function populateDetails(id, addHash){
 	}
 	
 	$('#detailsCol').focus();
-	//$('#eps').html();
 }
 
 function getRandomQuote(){

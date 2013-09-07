@@ -19,3 +19,9 @@ Features
 Links
 --------
 [Definitive Roderick](http://definitiveroderick.com).
+
+
+Want to help?
+--------
+
+-fork the project and provide some definitions

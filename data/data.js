@@ -28,7 +28,7 @@ var data = {
             name: "Bellingham",
             permalink: "bellingham",
             definition: "<p>To be overly nice in an effort to avoid confrontation.</p><p>Named after Bellingham, Wa. based on John's theory that the further North and West a person goes in the contiguous United States the more non-confrontational the local populations are.",
-            quote: "You don't want to go into a handjob parlor and bellingham the woman.",
+            quote: "You don't want to go into a handjob parlor and \"bellingham\" the woman.",
             link: "",
             img: "6a01053647073b970c01156f6c260a970b.jpg",
             episodes: [27]
@@ -37,7 +37,7 @@ var data = {
             name: "Bob Marley",
             permalink: "bob-marley",
             definition: "<p></p>",
-            quote: "",
+            quote: "Bob Gnarly",
             img: "marijuana-leaf.jpg",
             episodes: []
         }, 
@@ -101,16 +101,16 @@ var data = {
 		{
             name: "Devil Dogs",
             permalink: "devil-dogs",
-            definition: "<p></p>",
-            quote: "",
+            definition: "<p>Bad things that are creeping up from the shadows. Sometimes radioactive.</p>",
+            quote: "They're rife through that area",
             img: "",
-            episodes: []
+            episodes: [25]
         }, 
 		{
             name: "Fake southern patois",
             permalink: "patois",
-            definition: "<p></p>",
-            quote: "",
+            definition: "<p>How not to ingratiate oneself when travelling through America's undercarraige.</p> <p>A better technique? Just talk like you talk and they'll know who you are.</p>",
+            quote: "Hey y'all, I'm not from around here",
             img: "",
             episodes: [25]
         }, 
@@ -133,7 +133,7 @@ var data = {
 		{
             name: "German Sex Tourists",
             permalink: "sex-tourists",
-            definition: "<p></p>",
+            definition: "<p>During John's travels around the globe he's been sidled up to a time or two.</p>",
             quote: "",
             img: "",
             episodes: [7]
@@ -223,7 +223,7 @@ var data = {
 		{
             name: "Modern Art",
             permalink: "modern-art",
-            definition: "<p>. Example: holocaust donuts.</p>",
+            definition: "<p>Example: holocaust donuts.</p>",
             quote: "I find modern art to be a thought crime.",
             link: "",
             img: "",
@@ -291,7 +291,7 @@ var data = {
 			permalink: "pump-chili",
             definition: "<p></p>",
             quote: "",
-            img: "",
+            img: "tumblr_m9k2jzivpH1qz4rlzo1_500.jpg",
             episodes: [13]
         }, 
 		{
@@ -305,7 +305,7 @@ var data = {
 		{
             name: "Repercussions",
 			permalink: "reprecussions",
-            definition: "<p></p>",
+            definition: "<p>Some people just really need a punch in the nose.</p>",
             quote: "He was living in a post punch-in-the-nose world",
             img: "",
             episodes: [45]
@@ -333,6 +333,14 @@ var data = {
             quote: "",
             img: "",
             episodes: []
+        },
+		{
+            name: "Slurry",
+			permalink: "slurry",
+            definition: "<p>A vital part of the <a href='/#supertrain'>supertrain</a> plan to recycle detritous across vast swaths of the world. </p>",
+            quote: "",
+            img: "",
+            episodes: [33]
         }, 
 		{
             name: "Stress Bumps",
@@ -354,7 +362,7 @@ var data = {
 		{
             name: "SuperTrain",
 			permalink: "supertrain",
-            definition: "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p> <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>",
+            definition: "<p>When John is living out his destiny as a Jonathon Coulton-style super villian he will travel the world in his super train, recycling as he goes.</p>",
             quote: "You'd better hope to Christ you brought everything you need.",
             img: "8301245657_5d23b2b902_b.jpg",
             episodes: [25]
@@ -381,6 +389,14 @@ var data = {
 			permalink: "young-johns-sex-life",
             definition: "<p></p>",
             quote: "I had a complicated relationship with legwarmers and headbands.",
+            img: "",
+            episodes: [66]
+        },
+		{
+            name: "Lady on a ladder",
+			permalink: "lady-on-a-ladder",
+            definition: "<p>One of John's \"special\" things.</p>",
+            quote: "",
             img: "",
             episodes: [66]
         }
