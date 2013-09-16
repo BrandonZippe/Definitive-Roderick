@@ -412,13 +412,13 @@ var entries = {
 		},
 		{
 			episode: 82,
-			title: '',
-			path: ''
+			title: 'Yelling at Trees',
+			path: 'http://www.merlinmann.com/roderick/ep-82-yelling-at-trees.html'
 		},
 		{
 			episode: 83,
-			title: '',
-			path: ''
+			title: 'The Roderick Group',
+			path: 'http://www.merlinmann.com/roderick/ep-83-the-roderick-group.html'
 		},
 		{
 			episode: 84,
@@ -427,6 +427,11 @@ var entries = {
 		},
 		{
 			episode: 85,
+			title: '',
+			path: ''
+		},
+		{
+			episode: 86,
 			title: '',
 			path: ''
 		}

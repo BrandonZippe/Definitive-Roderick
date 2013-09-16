@@ -26,5 +26,8 @@ var quotes = [
 	'The best hobo costume the world has ever known',
 	'I\'m not interested in shining those boots',
 	'HEY MAN, WHY YA KISSIN\' MY BIRD?',
-	'The don\'t have the balls to think this way'
+	'Shower down to get an A',
+	'They don\'t have the balls to think this way',
+	'Just sittin\' here being Goldfinger',
+	'COUGH BUTTON!!'
 ];

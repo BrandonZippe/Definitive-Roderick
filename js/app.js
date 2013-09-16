@@ -141,7 +141,6 @@ $('#autocomplete').on('click', "a", function(event){
 	});
 });
 
-
 $('#randomSearch').on('click', "a", function(event){
 	$('#detailsCol').html('');
 	getRandomEntry();

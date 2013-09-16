@@ -6,7 +6,7 @@ var data = {
             definition: "<p></p>",
             quote: "",
             img: "",
-            episodes: []
+            episodes: [14]
         }, 
 		{
             name: "Arby's",
@@ -52,8 +52,8 @@ var data = {
 		{
             name: "Building Trail",
             permalink: "building-trail",
-            definition: "<p></p>",
-            quote: "",
+            definition: "<p>In lieu of Middle School, John believes students should be employed for two years maintaining national parks.</p>",
+            quote: "Seventh and eigth graders are terrible people.",
             img: "",
             episodes: [48]
         }, 
@@ -93,8 +93,8 @@ var data = {
             name: "Dead Rubber Girl",
             permalink: "dead-rubber-girl",
             definition: "<p>A sex-doll that lives deep in the uncanny valley and looks just a little bit too real.</p>",
-            //quote: "I\'m not going to know whether to grab her and run into the bathroom with her and have sex with her real quick or what.",
-            quote: "You don't have a dead rubber girl in your closet, you have a fetish item.",
+            quote: "I\'m not going to know whether to grab her and run into the bathroom with her and have sex with her real quick or what.",
+            //quote: "You don't have a dead rubber girl in your closet, you have a fetish item.",
             img: "",
             episodes: [21]
         }, 
@@ -125,8 +125,8 @@ var data = {
 		{
             name: "Fight Boat",
             permalink: "fight-boat",
-            definition: "<p>A de-commisioned oil tanker described in <a href='http://www.merlinmann.com/roderick/ep-74-the-omnibus-of-wilburforce.html'>episode 74</a> outfitted for hosting <a href='http://www.merlinmann.com/roderick/ep-61-neighborhood-stick-fight.html'>stick fights</a>. Where the spirit of the Olympics is to bring people together to solve differences, Fight Boat is trying to do the opposite.</p>",
-            quote: "",
+            definition: "<p>A de-commisioned oil tanker described in <a href='http://www.merlinmann.com/roderick/ep-74-the-omnibus-of-wilburforce.html'>episode 74</a> outfitted for hosting non-secular neighborhood <a href='http://www.merlinmann.com/roderick/ep-61-neighborhood-stick-fight.html'>stick fights</a>. Where the spirit of the Olympics is to bring people together to solve differences, Fight Boat is trying to do the opposite.</p>",
+            quote: "It's a little bit 'WaterWorld', it's a new thought technology.",
             img: "",
             episodes: [74]
         }, 
@@ -177,6 +177,14 @@ var data = {
             quote: "",
             img: "",
             episodes: [40]
+        },
+		{
+            name: "Insurance",
+            permalink: "insurance",
+            definition: "<p>Inspired by the 'Bourne' films, John believes the best insurance is a safe deposit box with stacks of cash in various currencies and a glock.</p>",
+            quote: "I can't think of a thing that wouldn't be a cure for.",
+            img: "",
+            episodes: [14]
         }, 
 		{
             name: "Juggalos",
@@ -202,6 +210,14 @@ var data = {
             img: "",
             episodes: [21]
         }, 
+		{
+            name: "Lady on a ladder",
+			permalink: "lady-on-a-ladder",
+            definition: "<p>One of John's \"special\" things.</p>",
+            quote: "",
+            img: "",
+            episodes: [9]
+        },
 		{
             name: "Mavericks",
             permalink: "maverick",
@@ -244,7 +260,7 @@ var data = {
             definition: "<p></p>",
             quote: "I demand satisfaction.",
             img: "",
-            episodes: []
+            episodes: [14]
         }, 
 		{
             name: "Pillow Owls",
@@ -281,10 +297,18 @@ var data = {
 		{
             name: "Puffy leather car coats",
 			permalink: "puffy-leather-car-coats",
-            definition: "<p>The purvue of actual poor poeple, or bad people... or people with rashes in awkward rashes.</p>",
+            definition: "<p>The purvue of actual poor poeple, or bad people... or people with rashes in awkward places.</p>",
             quote: "A lot of people would walk to the other side of the street.",
             img: "",
             episodes: [27]
+        },
+		{
+            name: "Pronunciation",
+			permalink: "pronunciation",
+            definition: "<p>Sometimes John and Merlin like to say words in a unique way.</p>",
+            quote: "It's just that you learned it from a book. There's no shame in that",
+            img: "",
+            episodes: [74]
         },
 		{
             name: "Pump Chili",
@@ -343,6 +367,14 @@ var data = {
             episodes: [33]
         }, 
 		{
+            name: "Space Cowboy",
+			permalink: "space-cowboy",
+            definition: "<p>John's uniform of the day, from time to time</p>",
+            quote: "I listen for the uniform of the day announcement, and sometimes it says: Space Cowboy.",
+            img: "",
+            episodes: [48]
+        },
+		{
             name: "Stress Bumps",
 			permalink: "stress-bumps",
             definition: "<p>Herpes.</p>",
@@ -391,14 +423,7 @@ var data = {
             quote: "I had a complicated relationship with legwarmers and headbands.",
             img: "",
             episodes: [66]
-        },
-		{
-            name: "Lady on a ladder",
-			permalink: "lady-on-a-ladder",
-            definition: "<p>One of John's \"special\" things.</p>",
-            quote: "",
-            img: "",
-            episodes: [66]
         }
+
     ]
 }
