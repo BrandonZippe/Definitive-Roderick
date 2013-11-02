@@ -422,16 +422,86 @@ var entries = {
 		},
 		{
 			episode: 84,
-			title: '',
-			path: ''
+			title: 'Pedagogical Sex Father',
+			path: 'http://www.merlinmann.com/roderick/ep-84-pedagogical-sex-father.html'
 		},
 		{
 			episode: 85,
+			title: 'Steamin\' John',
+			path: 'http://www.merlinmann.com/roderick/ep-85-steamin-john.html'
+		},
+		{
+			episode: 86,
+			title: 'The Junius Issue',
+			path: 'http://www.merlinmann.com/roderick/ep-86-the-junius-issue.html'
+		},
+		{
+			episode: 87,
+			title: 'I Speak Sea Plane',
+			path: 'http://www.merlinmann.com/roderick/ep-87-i-speak-sea-plane.html'
+		},
+		{
+			episode: 88,
+			title: 'Grotesquerie Ray',
+			path: 'http://www.merlinmann.com/roderick/ep-88-grotesquerie-ray.html'
+		},
+		{
+			episode: 89,
+			title: 'Transparity',
+			path: 'http://www.merlinmann.com/roderick/ep-89-transparity.html'
+		},
+		{
+			episode: 90,
 			title: '',
 			path: ''
 		},
 		{
-			episode: 86,
+			episode: 91,
+			title: '',
+			path: ''
+		},
+		{
+			episode: 92,
+			title: '',
+			path: ''
+		},
+		{
+			episode: 93,
+			title: '',
+			path: ''
+		},
+		{
+			episode: 94,
+			title: '',
+			path: ''
+		},
+		{
+			episode: 95,
+			title: '',
+			path: ''
+		},
+		{
+			episode: 96,
+			title: '',
+			path: ''
+		},
+		{
+			episode: 97,
+			title: '',
+			path: ''
+		},
+		{
+			episode: 98,
+			title: '',
+			path: ''
+		},
+		{
+			episode: 99,
+			title: '',
+			path: ''
+		},
+		{
+			episode: 100,
 			title: '',
 			path: ''
 		}
