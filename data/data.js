@@ -289,9 +289,9 @@ var data = {
 		{
 			name: "PowerPoint",
 			permalink: "powerpoint",
-			definition: "<p>Something John knows nothing about.</p>",
+			definition: "<p>Something John knows nothing about. <span class=\"small\">Image from Posiegirl on <a href=\"http://instagram.com/p/YV4HN2QALW/\">instagram</a>.</span></p>",
 			quote: "FUCK YOU",
-			img: "",
+			img: "2240a2d8aa0211e28f4222000a1fb75e_7.jpg",
 			episodes: []
 		}, 
 		{
