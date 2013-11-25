@@ -85,10 +85,10 @@ var data = {
 		{
 			name: "Dander and Detritus",
 			permalink: "dander",
-			definition: "<p></p>",
-			quote: "",
+			definition: "<p>The residue left over at thrift stores on items John wants to buy.</p>",
+			quote: "There's a little bit of DNA left on all this stuff",
 			img: "",
-			episodes: []
+			episodes: [53]
 		}, 
 		{
 			name: "Dead Baby Sea Otter",
