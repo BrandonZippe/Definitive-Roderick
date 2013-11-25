@@ -43,6 +43,20 @@ function populateAutoComplete(){
 	});
 }
 
+function listAllTerms(){	
+	$('#autocomplete').html('');
+	var $autocomplete = $('#autocomplete');
+	
+	topicNum = 0;
+	$.each(data.topics, function() {
+		var name = data.topics[topicNum].name;
+		var id = topicNum;
+		var permalink = data.topics[topicNum].permalink;
+		$autocomplete.append('<a class="loadDef">' + name + '<span class="id">'+id+'</span><span class="permalink">'+permalink+'</span></a>');
+		topicNum++;	
+	});
+}
+
 function drawEps(ep){
 	var $eps = $('#eps');
 	
@@ -121,7 +135,12 @@ function getSpecificEntry(hash, addHash){
 }
 
 $('#search').on('keyup', function(){
-	if($(this).val() != ''){
+	var entry = $(this).val().toLowerCase();
+	
+	if(entry == 'all'){
+			listAllTerms();
+	}
+	else if(entry != ''){
 		populateAutoComplete();
 		$('#randomSearch').hide();	
 	}
