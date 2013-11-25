@@ -142,11 +142,11 @@ $('#search').on('keyup', function(){
 	}
 	else if(entry != ''){
 		populateAutoComplete();
-		$('#randomSearch').hide();	
+		$('#searchBtns').hide();	
 	}
 	else{
 		$('#autocomplete').html('');
-		$('#randomSearch').show();
+		$('#searchBtns').show();
 	}
 });
 
@@ -162,8 +162,15 @@ $('#autocomplete').on('click', "a", function(event){
 
 $('#randomSearch').on('click', "a", function(event){
 	$('#detailsCol').html('');
+	$('#autocomplete').html('');
 	getRandomEntry();
 });
+
+$('#listAll').on('click', "a", function(event){
+	listAllTerms();
+});
+
+
 
 $('#mastHead').on('click', "h2", function(event){
 	getRandomQuote();
