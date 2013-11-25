@@ -30,5 +30,6 @@ var quotes = [
 	'They don\'t have the balls to think this way',
 	'Just sittin\' here being Goldfinger',
 	'COUGH BUTTON!!',
-	'Are we still talking about this?'
+	'Are we still talking about this?',
+	'Michigan is the Ireland of the upper Midwest'
 ];

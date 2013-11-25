@@ -23,6 +23,14 @@ var data = {
 			quote: "",
 			img: "",
 			episodes: [76]
+		},
+		{
+			name: "Bath Desk",
+			permalink: "bath-desk",
+			definition: "<p>A desk for use while bathing. Useful for papers and meatball subs.</p>",
+			quote: "",
+			img: "",
+			episodes: []
 		}, 
 		{
 			name: "Bellingham",
@@ -66,12 +74,13 @@ var data = {
 			episodes: []
 		}, 
 		{
-			name: "Chili's",
+			name: "Chilis",
 			permalink: "chilis",
-			definition: "<p></p>",
-			quote: "",
+			definition: "<p>John LOVES a chilis.</p>",
+			//quote: "You know what's good is a Chilis... ",
+			quote: "7,000 kinds of mexi-fired, and ribs, and corn, and garlic shrimp, and chicken fingers, and a little side ramekin of vitamin D, and a drink and a pineapple with a carrot sticking out of it, and they put little pointy shoes on my feet that curl over and have little bells on the end, and someone gives me a handjob. THIS IS THE GREATEST RESTAURANT IN THE WORLD!",
 			img: "",
-			episodes: []
+			episodes: [19]
 		}, 
 		{
 			name: "Dander and Detritus",
