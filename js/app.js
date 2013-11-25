@@ -1,7 +1,6 @@
 function initApp(){
 	//get randomized quote
 	getRandomQuote();
-	
 	var qs = 'item';
 	var url = window.location.search;
 	
@@ -32,8 +31,8 @@ function populateAutoComplete(){
 		var name = data.topics[topicNum].name;
 		var id = topicNum;
 		var permalink = data.topics[topicNum].permalink;
-		var val = $('#search').val();
-		var length = $('#search').val().length;
+		var val = $.trim($('#search').val());
+		var length = val.length;
 		var nameSub = name.substring(0, length);
 		
 		if(val.toLowerCase() == nameSub.toLowerCase()){
@@ -85,7 +84,6 @@ function populateDetails(id, addHash){
 	drawEps(eps);
 	
 	if(addHash){ window.location.hash = permalink;	}
-	
 	$('#share').html('<a href="http://twitter.com/intent/tweet?url=http://definitiveroderick.com?item='+permalink+'" target="_blank">Share definition on Twitter</a>');	
 	
 	$('#entryTitle').html(name);
@@ -117,7 +115,6 @@ function getRandomEntry(){
 }
 
 function getSpecificEntry(hash, addHash){
-	
 	$('#detailsCol').load('templates/details.html', function() {
 		topicNum = 0;
 		$.each(data.topics, function() {
@@ -128,19 +125,13 @@ function getSpecificEntry(hash, addHash){
 				populateDetails(topicNum, addHash);
 			}
 			topicNum++;
-			
 		});
-		
 	});
 }
 
 $('#search').on('keyup', function(){
-	var entry = $(this).val().toLowerCase();
-	
-	if(entry == 'all'){
-			listAllTerms();
-	}
-	else if(entry != ''){
+	var entry = $.trim($(this).val().toLowerCase());
+	if(entry != '' && entry != ' '){
 		populateAutoComplete();
 		$('#searchBtns').hide();	
 	}
