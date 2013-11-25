@@ -3,8 +3,8 @@ var data = {
 		{
 			name: "Amsterdam to Istanbul",
 			permalink: "amsterdam-to-instanbul",
-			definition: "<p></p>",
-			quote: "",
+			definition: "<p>John once walked across Europe. It was a formative period for him and the people of Europe... and several employees at a <a href=\"#northface\">Northface</a> store.</p>",
+			quote: "I walked out of Heathrow and bought the cheapest map.",
 			img: "",
 			episodes: [14]
 		}, 
@@ -27,7 +27,7 @@ var data = {
 		{
 			name: "Bath Desk",
 			permalink: "bath-desk",
-			definition: "<p>A desk for use while bathing. Useful for papers and meatball subs.</p>",
+			definition: "<p>A desk for use while bathing. Useful for organizing papers and eating meatball subs.</p>",
 			quote: "",
 			img: "",
 			episodes: []
@@ -78,7 +78,7 @@ var data = {
 			permalink: "chilis",
 			definition: "<p>John LOVES a chilis.</p>",
 			//quote: "You know what's good is a Chilis... ",
-			quote: "7,000 kinds of mexi-fired, and ribs, and corn, and garlic shrimp, and chicken fingers, and a little side ramekin of vitamin D, and a drink and a pineapple with a carrot sticking out of it, and they put little pointy shoes on my feet that curl over and have little bells on the end, and someone gives me a handjob. THIS IS THE GREATEST RESTAURANT IN THE WORLD!",
+			quote: "7,000 kinds of mexi-fries, and ribs, and corn, and garlic shrimp, and chicken fingers, and a little side ramekin of vitamin D, and a drink and a pineapple with a carrot sticking out of it, and they put little pointy shoes on my feet that curl over and have little bells on the end, and someone gives me a handjob. THIS IS THE GREATEST RESTAURANT IN THE WORLD!",
 			img: "",
 			episodes: [19]
 		}, 
@@ -158,8 +158,8 @@ var data = {
 		{
 			name: "Hooptie collection",
 			permalink: "hooptie-collection",
-			definition: "<p></p>",
-			quote: "",
+			definition: "<p>John has a wide variety of vehicles in his garage.</p>",
+			quote: "Blub, blub, blub, blub, blub, blub, blub",
 			img: "tumblr_m7qk3q84uU1qauqmuo1_1280.png",
 			episodes: [39]
 		}, 
@@ -182,7 +182,7 @@ var data = {
 		{
 			name: "Hitler n' stuff",
 			permalink: "hitler-n-stuff",
-			definition: "<p></p>",
+			definition: "<p>Merlin and John's forthcoming second podcast, focusing on lighter topics like Hitler and the Holocaust.</p>",
 			quote: "",
 			img: "",
 			episodes: [40]
@@ -266,7 +266,7 @@ var data = {
 		{
 			name: "NorthFace",
 			permalink: "northface",
-			definition: "<p></p>",
+			definition: "<p>During his trip across <a href=\"#amsterdam-to-instanbul\">Europe</a> John had some issues with his Northface backpack. Upon returning to Seattle, John made sure that the company knew their equipment had let him down.</p>",
 			quote: "I demand satisfaction.",
 			img: "",
 			episodes: [14]
