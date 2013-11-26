@@ -457,8 +457,8 @@ var entries = {
 		},
 		{
 			episode: 91,
-			title: '',
-			path: ''
+			title: 'Roller Derby Boyfriend',
+			path: 'http://www.merlinmann.com/roderick/ep-91-roller-derby-boyfriend.html'
 		},
 		{
 			episode: 92,
