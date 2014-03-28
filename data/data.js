@@ -432,6 +432,39 @@ var data = {
 			quote: "I had a complicated relationship with legwarmers and headbands.",
 			img: "",
 			episodes: [66]
+		},
+		{
+			name: "Jingle Stick",
+			permalink: "jingle-stick",
+			definition: "<p>A casual walking stick complete with sleigh bells that must be checked upon entering a Miley Cyrus concert.</p>",
+			quote: "",
+			img: "",
+			episodes: [98]
+		},
+		{
+			name: "Flipper Tooth",
+			permalink: "flipper-tooth",
+			definition: "<p>Metal apparatus given to you by the dentist when you are missing a tooth, primarily serves as a peanut butter trap.</p>",
+			quote: "",
+			img: "",
+			episodes: [99]
+		},
+		{
+			name: "Takeand",
+			permalink: "takeand",
+			definition: "<p>A saying of the south that literally means to "Take and" do something.</p>",
+			quote: "Go takeand put those boxes up there.",
+			img: "",
+			episodes: [100]
+		},
+		{
+			name: "How to gather intelligence",
+			permalink: "how-to-gather-intelligence",
+			definition: "<p></p>",
+			quote: "Here is how you gather intelligence, shut up.",
+			img: "",
+			episodes: [100]
 		}
 	]
+	
 }
